@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F744397E17531C48001ED4A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F744397D17531C48001ED4A7 /* Cocoa.framework */; };
+		F744398817531C48001ED4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F744398617531C48001ED4A7 /* InfoPlist.strings */; };
+		F744398A17531C48001ED4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F744398917531C48001ED4A7 /* main.m */; };
+		F744398E17531C48001ED4A7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F744398C17531C48001ED4A7 /* Credits.rtf */; };
+		F744399117531C48001ED4A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F744399017531C48001ED4A7 /* AppDelegate.m */; };
+		F744399417531C49001ED4A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F744399217531C49001ED4A7 /* MainMenu.xib */; };
+		F744399C17531C49001ED4A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F744399B17531C49001ED4A7 /* SenTestingKit.framework */; };
+		F744399D17531C49001ED4A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F744397D17531C48001ED4A7 /* Cocoa.framework */; };
+		F74439A517531C49001ED4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F74439A317531C49001ED4A7 /* InfoPlist.strings */; };
+		F74439A817531C49001ED4A7 /* RubyistokeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74439A717531C49001ED4A7 /* RubyistokeiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F744399E17531C49001ED4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F744397217531C48001ED4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F744397917531C48001ED4A7;
+			remoteInfo = Rubyistokei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F744397A17531C48001ED4A7 /* Rubyistokei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubyistokei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F744397D17531C48001ED4A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F744398017531C48001ED4A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F744398117531C48001ED4A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F744398217531C48001ED4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F744398517531C48001ED4A7 /* Rubyistokei-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rubyistokei-Info.plist"; sourceTree = "<group>"; };
+		F744398717531C48001ED4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F744398917531C48001ED4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F744398B17531C48001ED4A7 /* Rubyistokei-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rubyistokei-Prefix.pch"; sourceTree = "<group>"; };
+		F744398D17531C48001ED4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F744398F17531C48001ED4A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F744399017531C48001ED4A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F744399317531C49001ED4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F744399A17531C49001ED4A7 /* RubyistokeiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyistokeiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F744399B17531C49001ED4A7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F74439A217531C49001ED4A7 /* RubyistokeiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyistokeiTests-Info.plist"; sourceTree = "<group>"; };
+		F74439A417531C49001ED4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F74439A617531C49001ED4A7 /* RubyistokeiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyistokeiTests.h; sourceTree = "<group>"; };
+		F74439A717531C49001ED4A7 /* RubyistokeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyistokeiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F744397717531C48001ED4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F744397E17531C48001ED4A7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F744399617531C49001ED4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F744399C17531C49001ED4A7 /* SenTestingKit.framework in Frameworks */,
+				F744399D17531C49001ED4A7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F744397117531C48001ED4A7 = {
+			isa = PBXGroup;
+			children = (
+				F744398317531C48001ED4A7 /* Rubyistokei */,
+				F74439A017531C49001ED4A7 /* RubyistokeiTests */,
+				F744397C17531C48001ED4A7 /* Frameworks */,
+				F744397B17531C48001ED4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F744397B17531C48001ED4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F744397A17531C48001ED4A7 /* Rubyistokei.app */,
+				F744399A17531C49001ED4A7 /* RubyistokeiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F744397C17531C48001ED4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F744397D17531C48001ED4A7 /* Cocoa.framework */,
+				F744399B17531C49001ED4A7 /* SenTestingKit.framework */,
+				F744397F17531C48001ED4A7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F744397F17531C48001ED4A7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F744398017531C48001ED4A7 /* AppKit.framework */,
+				F744398117531C48001ED4A7 /* CoreData.framework */,
+				F744398217531C48001ED4A7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F744398317531C48001ED4A7 /* Rubyistokei */ = {
+			isa = PBXGroup;
+			children = (
+				F744398F17531C48001ED4A7 /* AppDelegate.h */,
+				F744399017531C48001ED4A7 /* AppDelegate.m */,
+				F744399217531C49001ED4A7 /* MainMenu.xib */,
+				F744398417531C48001ED4A7 /* Supporting Files */,
+			);
+			path = Rubyistokei;
+			sourceTree = "<group>";
+		};
+		F744398417531C48001ED4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F744398517531C48001ED4A7 /* Rubyistokei-Info.plist */,
+				F744398617531C48001ED4A7 /* InfoPlist.strings */,
+				F744398917531C48001ED4A7 /* main.m */,
+				F744398B17531C48001ED4A7 /* Rubyistokei-Prefix.pch */,
+				F744398C17531C48001ED4A7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F74439A017531C49001ED4A7 /* RubyistokeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F74439A617531C49001ED4A7 /* RubyistokeiTests.h */,
+				F74439A717531C49001ED4A7 /* RubyistokeiTests.m */,
+				F74439A117531C49001ED4A7 /* Supporting Files */,
+			);
+			path = RubyistokeiTests;
+			sourceTree = "<group>";
+		};
+		F74439A117531C49001ED4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F74439A217531C49001ED4A7 /* RubyistokeiTests-Info.plist */,
+				F74439A317531C49001ED4A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F744397917531C48001ED4A7 /* Rubyistokei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74439AB17531C49001ED4A7 /* Build configuration list for PBXNativeTarget "Rubyistokei" */;
+			buildPhases = (
+				F744397617531C48001ED4A7 /* Sources */,
+				F744397717531C48001ED4A7 /* Frameworks */,
+				F744397817531C48001ED4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rubyistokei;
+			productName = Rubyistokei;
+			productReference = F744397A17531C48001ED4A7 /* Rubyistokei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F744399917531C49001ED4A7 /* RubyistokeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74439AE17531C49001ED4A7 /* Build configuration list for PBXNativeTarget "RubyistokeiTests" */;
+			buildPhases = (
+				F744399517531C49001ED4A7 /* Sources */,
+				F744399617531C49001ED4A7 /* Frameworks */,
+				F744399717531C49001ED4A7 /* Resources */,
+				F744399817531C49001ED4A7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F744399F17531C49001ED4A7 /* PBXTargetDependency */,
+			);
+			name = RubyistokeiTests;
+			productName = RubyistokeiTests;
+			productReference = F744399A17531C49001ED4A7 /* RubyistokeiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F744397217531C48001ED4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mrkn;
+			};
+			buildConfigurationList = F744397517531C48001ED4A7 /* Build configuration list for PBXProject "Rubyistokei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F744397117531C48001ED4A7;
+			productRefGroup = F744397B17531C48001ED4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F744397917531C48001ED4A7 /* Rubyistokei */,
+				F744399917531C49001ED4A7 /* RubyistokeiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F744397817531C48001ED4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F744398817531C48001ED4A7 /* InfoPlist.strings in Resources */,
+				F744398E17531C48001ED4A7 /* Credits.rtf in Resources */,
+				F744399417531C49001ED4A7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F744399717531C49001ED4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74439A517531C49001ED4A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F744399817531C49001ED4A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F744397617531C48001ED4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F744398A17531C48001ED4A7 /* main.m in Sources */,
+				F744399117531C48001ED4A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F744399517531C49001ED4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74439A817531C49001ED4A7 /* RubyistokeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F744399F17531C49001ED4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F744397917531C48001ED4A7 /* Rubyistokei */;
+			targetProxy = F744399E17531C49001ED4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F744398617531C48001ED4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F744398717531C48001ED4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F744398C17531C48001ED4A7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F744398D17531C48001ED4A7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F744399217531C49001ED4A7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F744399317531C49001ED4A7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F74439A317531C49001ED4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74439A417531C49001ED4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74439A917531C49001ED4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F74439AA17531C49001ED4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F74439AC17531C49001ED4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rubyistokei/Rubyistokei-Prefix.pch";
+				INFOPLIST_FILE = "Rubyistokei/Rubyistokei-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F74439AD17531C49001ED4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rubyistokei/Rubyistokei-Prefix.pch";
+				INFOPLIST_FILE = "Rubyistokei/Rubyistokei-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F74439AF17531C49001ED4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rubyistokei.app/Contents/MacOS/Rubyistokei";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rubyistokei/Rubyistokei-Prefix.pch";
+				INFOPLIST_FILE = "RubyistokeiTests/RubyistokeiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F74439B017531C49001ED4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rubyistokei.app/Contents/MacOS/Rubyistokei";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rubyistokei/Rubyistokei-Prefix.pch";
+				INFOPLIST_FILE = "RubyistokeiTests/RubyistokeiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F744397517531C48001ED4A7 /* Build configuration list for PBXProject "Rubyistokei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74439A917531C49001ED4A7 /* Debug */,
+				F74439AA17531C49001ED4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74439AB17531C49001ED4A7 /* Build configuration list for PBXNativeTarget "Rubyistokei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74439AC17531C49001ED4A7 /* Debug */,
+				F74439AD17531C49001ED4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F74439AE17531C49001ED4A7 /* Build configuration list for PBXNativeTarget "RubyistokeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74439AF17531C49001ED4A7 /* Debug */,
+				F74439B017531C49001ED4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F744397217531C48001ED4A7 /* Project object */;
+}
