@@ -20,6 +20,8 @@
     [self.window setLevel:kCGDesktopIconWindowLevel - 1];
     [self.window setOpaque:NO];
     [self.window setHasShadow:NO];
+    [self.window makeKeyAndOrderFront:self];
+    [NSApp unhide:self.window];
 }
 
 @end
