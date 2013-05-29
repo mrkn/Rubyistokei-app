@@ -17,6 +17,7 @@
 		F744399D17531C49001ED4A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F744397D17531C48001ED4A7 /* Cocoa.framework */; };
 		F74439A517531C49001ED4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F74439A317531C49001ED4A7 /* InfoPlist.strings */; };
 		F74439A817531C49001ED4A7 /* RubyistokeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74439A717531C49001ED4A7 /* RubyistokeiTests.m */; };
+		F7C31B621755C00200F63FE7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C31B611755C00200F63FE7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F74439A417531C49001ED4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F74439A617531C49001ED4A7 /* RubyistokeiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyistokeiTests.h; sourceTree = "<group>"; };
 		F74439A717531C49001ED4A7 /* RubyistokeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyistokeiTests.m; sourceTree = "<group>"; };
+		F7C31B611755C00200F63FE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C31B621755C00200F63FE7 /* WebKit.framework in Frameworks */,
 				F744397E17531C48001ED4A7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +78,7 @@
 		F744397117531C48001ED4A7 = {
 			isa = PBXGroup;
 			children = (
+				F7C31B611755C00200F63FE7 /* WebKit.framework */,
 				F744398317531C48001ED4A7 /* Rubyistokei */,
 				F74439A017531C49001ED4A7 /* RubyistokeiTests */,
 				F744397C17531C48001ED4A7 /* Frameworks */,
@@ -386,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rubyistokei/Rubyistokei-Prefix.pch";
 				INFOPLIST_FILE = "Rubyistokei/Rubyistokei-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rubyistokei/Rubyistokei-Prefix.pch";
 				INFOPLIST_FILE = "Rubyistokei/Rubyistokei-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -452,6 +458,7 @@
 				F74439AD17531C49001ED4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74439AE17531C49001ED4A7 /* Build configuration list for PBXNativeTarget "RubyistokeiTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +467,7 @@
 				F74439B017531C49001ED4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
