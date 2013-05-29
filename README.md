@@ -1,6 +1,6 @@
 # Rubyistokei.app
 
-Current version is 1.1
+Current version is 2.0
 
 ## Requirements
 
@@ -8,4 +8,4 @@ Current version is 1.1
 
 ## Download
 
-http://bit.ly/Rubyistokei-1-1-app-zip
+http://bit.ly/Rubyistokei-2-0-app-zip
