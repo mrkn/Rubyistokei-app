@@ -6,5 +6,5 @@
 
 ## Download
 
-https://dl.dropboxusercontent.com/u/266876/Rubyistokei.app.zip
+http://bit.ly/Rubyistokei-app-zip
 
