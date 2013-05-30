@@ -9,3 +9,7 @@ Current version is 2.0
 ## Download
 
 http://bit.ly/Rubyistokei-2-0-app-zip
+
+## Author
+
+- Kenta Murata (@mrkn)

@@ -1,3 +1,7 @@
+# 2.1
+
+- Add an application icon created by @hazisarashi.
+
 # 2.0
 
 - Support screen selection.
