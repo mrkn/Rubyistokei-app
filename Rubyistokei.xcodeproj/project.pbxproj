@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2319FC0A175715D6007546C5 /* rubyistokei.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2319FC09175715D6007546C5 /* rubyistokei.icns */; };
 		F744397E17531C48001ED4A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F744397D17531C48001ED4A7 /* Cocoa.framework */; };
 		F744398817531C48001ED4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F744398617531C48001ED4A7 /* InfoPlist.strings */; };
 		F744398A17531C48001ED4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F744398917531C48001ED4A7 /* main.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2319FC09175715D6007546C5 /* rubyistokei.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = rubyistokei.icns; sourceTree = "<group>"; };
 		F744397A17531C48001ED4A7 /* Rubyistokei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubyistokei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F744397D17531C48001ED4A7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F744398017531C48001ED4A7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -78,6 +80,7 @@
 		F744397117531C48001ED4A7 = {
 			isa = PBXGroup;
 			children = (
+				2319FC09175715D6007546C5 /* rubyistokei.icns */,
 				F7C31B611755C00200F63FE7 /* WebKit.framework */,
 				F744398317531C48001ED4A7 /* Rubyistokei */,
 				F74439A017531C49001ED4A7 /* RubyistokeiTests */,
@@ -231,6 +234,7 @@
 				F744398817531C48001ED4A7 /* InfoPlist.strings in Resources */,
 				F744398E17531C48001ED4A7 /* Credits.rtf in Resources */,
 				F744399417531C49001ED4A7 /* MainMenu.xib in Resources */,
+				2319FC0A175715D6007546C5 /* rubyistokei.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
