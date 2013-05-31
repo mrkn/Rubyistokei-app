@@ -1,6 +1,6 @@
 # Rubyistokei.app
 
-Current version is 2.1
+Current version is 3.0
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Current version is 2.1
 
 ## Download
 
-http://bit.ly/Rubyistokei-2-1-app-zip
+http://bit.ly/Rubyistokei-3-0-app-zip
 
 ## Author
 
@@ -17,5 +17,6 @@ http://bit.ly/Rubyistokei-2-1-app-zip
 ## Acknowledgement
 
 - darashi/rubyistokei, awsome app
+- @makimoto, glitched version app
 - @hazisarashi, icon creator
 - Matz, icon

@@ -1,3 +1,7 @@
+# 3.0
+
+- Support glitch mode.
+
 # 2.1
 
 - Add an application icon created by @hazisarashi.
