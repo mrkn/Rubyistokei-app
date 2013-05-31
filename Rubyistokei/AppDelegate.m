@@ -14,7 +14,7 @@
 {
     current_screen = [[NSScreen screens] indexOfObject:[self.window screen]];
 
-    [self.webView setMainFrameURL: @"http://rubyistokei.herokuapp.com/"];
+    [self setGlitchMode:NO];
 
     NSRect screenFrame = [[self.window screen] frame];
     [self.window setStyleMask:NSBorderlessWindowMask];
@@ -32,6 +32,28 @@
      selector:@selector(screenChanged:)
      name:NSApplicationDidChangeScreenParametersNotification
      object:nil];
+}
+
+- (void)setGlitchMode:(Boolean)value {
+    glitch_mode = value;
+    if (glitch_mode == YES) {
+        [self.webView setMainFrameURL: @"http://glitch-rubyistokei.herokuapp.com/"];
+    }
+    else {
+        [self.webView setMainFrameURL: @"http://rubyistokei.herokuapp.com/"];
+    }
+}
+
+- (IBAction)changeGlitchMode:(id)sender {
+    NSMenuItem* menu_item = (NSMenuItem*)sender;
+    if ([menu_item state] == NSOnState) {
+        [menu_item setState:NSOffState];
+        [self setGlitchMode:NO];
+    }
+    else {
+        [menu_item setState:NSOnState];
+        [self setGlitchMode:YES];
+    }
 }
 
 - (void)screenMenuItemSelected:(NSMenuItem *)sender {

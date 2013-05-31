@@ -11,10 +11,13 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     NSInteger current_screen;
+    Boolean glitch_mode;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet WebView *webView;
 @property (assign) IBOutlet NSMenu *screen_menu;
+
+- (IBAction)changeGlitchMode:(id)sender;
 
 @end
