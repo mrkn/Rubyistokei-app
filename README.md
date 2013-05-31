@@ -1,6 +1,6 @@
 # Rubyistokei.app
 
-Current version is 2.0
+Current version is 2.1
 
 ## Requirements
 
@@ -8,8 +8,14 @@ Current version is 2.0
 
 ## Download
 
-http://bit.ly/Rubyistokei-2-0-app-zip
+http://bit.ly/Rubyistokei-2-1-app-zip
 
 ## Author
 
 - Kenta Murata (@mrkn)
+
+## Acknowledgement
+
+- darashi/rubyistokei, awsome app
+- @hazisarashi, icon creator
+- Matz, icon
